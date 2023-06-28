@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "df337dd7-287d-4039-8da4-4f13283ee919",
+		"name": "Open Bootcamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28224326"
+	},
+	"item": [
+		{
+			"name": "Listar todos los usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/bootcampers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear usuario ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/bootcampers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:9000",
+			"type": "string"
+		}
+	]
+}
